@@ -36,6 +36,7 @@ const App = () => {
   return (
     <div className="App">
       <HeaderH1 className="Header">Star Wars Characters</HeaderH1>
+      <input />
       <FancyDiv className='CharacterCards'>
         {starWarsData.map((item, index) => {
           return <CharacterCards key={index} name={item.name} height={item.height} weight={item.mass} hair={item.hair_color} eye={item.eye_color} birthYear={item.birth_year} gender={item.gender} />
