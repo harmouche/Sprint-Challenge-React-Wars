@@ -4,8 +4,8 @@ import React from 'react';
 import styled from 'styled-components';
 
 const StyledDiv = styled.div`
-    border: 3px lightyellow solid;
-    border-radius: 5px;
+    border: 1px yellow solid;
+    border-radius: 15%;
     margin: 20px;
     width: 45%;
     background-color: rgba(52, 52, 52, 0.375);
